@@ -1,4 +1,4 @@
 // implement your solution here
-function hello() {
-
+function hello(name) {
+ return "Hello " + (name || "world") + "!"
 }
